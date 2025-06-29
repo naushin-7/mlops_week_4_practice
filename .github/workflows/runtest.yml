@@ -28,7 +28,7 @@ jobs:
           source .venv/bin/activate
           pip install --upgrade pip
           pip install -r requirements.txt
-          pip install black flake8 pytest
+          pip install black flake8 cml
       - name: Auto-format with Black
         run: |
           source .venv/bin/activate
